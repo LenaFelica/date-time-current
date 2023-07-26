@@ -91,6 +91,8 @@ const fullBtn = document.getElementById('full');
 const dateBtn = document.getElementById('date');
 const timeBtn = document.getElementById('time');
 
+
+//* Замыкание!
 function bindMode(name) {
     return function() {
       mode = name //mode будет присваивать себе name
